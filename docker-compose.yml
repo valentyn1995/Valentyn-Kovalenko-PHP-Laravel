@@ -24,7 +24,7 @@ services:
       - ./tmp/db:/var/lib/postgresql
     environment:
         POSTGRES_USER: postgres
-        POSTGRES_PASSWORD: 12345
-        POSTGRES_DB: symfony
+        POSTGRES_PASSWORD: 12345Aa.
+        POSTGRES_DB: laravel_sql_postgres
     ports:
       - "5433:5432"
