@@ -66,10 +66,6 @@ http://localhost:5000/api/v1/course/show_all_students_without_course/1?format=xm
 ```sh
 docker-compose exec -it app php artisan test
 ```
-- with coverage
-```sh
-docker-compose exec -it app php artisan test --coverage-html coverage
-```
 8. Run Swagger documentation
 ```sh
 docker-compose exec -it app php artisan l5-swagger:generate
